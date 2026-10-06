@@ -1,0 +1,14 @@
+{
+  "name": "pi-tps",
+  "version": "0.1.0",
+  "description": "Minimal Pi extension: real-time TPS with 4 color tiers.",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions/index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
